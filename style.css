@@ -1,0 +1,94 @@
+.Header{
+text-align: center;
+color:gold;
+font-family: sans-serif;
+font-size: 50px;
+margin: 0px;
+padding-top:  10px;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width:2px;
+background-color: black;
+opacity: 0.9;
+
+}
+
+body{
+background-color: darkgrey;
+margin:0px;
+padding:0px;
+background-image: url(https://breweryprintshoppe.com/wp-content/uploads/2017/12/brewery-print-shoppe-background-keg-beer.jpg);
+
+
+overflow-y: scroll;
+}
+.box{
+    margin-top: 15px;
+background-color:black;
+opacity: 0.9;
+padding: 5px;
+border-radius: 25px;
+height:250px;
+padding-left: 20px;
+padding-bottom: 10px;
+padding-top:20px;
+box-sizing: border-box;
+
+border:solid;
+border-color: gold;
+stroke-width: 10px;
+-webkit-text-fill-color: gold;
+    -webkit-text-stroke-width:0px;
+    color:gold
+}
+.brewery_details{
+
+    
+        display: grid;
+        justify-content: center;
+            grid-template-columns: 380px 380px 380px ;   
+            margin-top: 20px;
+            gap: 50px;
+           
+            
+        
+        
+}
+.fa{
+    color:gold;
+    
+
+}
+#CityorName{
+    width: 300px;
+    height: 60px;
+    box-sizing: border-box;
+    box-shadow: 10px;
+    border-color: gold;
+    
+}
+button{
+
+    width: 100px;
+    height: 60px;
+    box-sizing: border-box;
+    box-shadow: 10px;
+    border-color: gold;
+    background-color:black;
+    -webkit-text-fill-color: transparent;
+-webkit-text-stroke-width:1px;
+color:gold
+
+}
+.shop:hover{
+    border-radius: 10px;
+    transform: scale(1.08);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+input{
+    margin-top: 0px;
+}
+.slogan{
+margin-top: 0px;
+padding-bottom: 50px;
+font-size: 30px;
+}
